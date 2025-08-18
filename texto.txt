@@ -1,0 +1,108 @@
+Cardápio Online Interativo
+
+Briefing do Cliente
+
+Objetivo: Criar um site responsivo para um restaurante fictício chamado “Delícia Express”, onde clientes possam visualizar o cardápio, filtrar por categorias (ex.: entradas, pratos principais, sobremesas, bebidas) e ver detalhes de cada item.
+
+Prazo: 2 semanas (entrega final).
+
+Requisitos principais:
+
+HTML para estrutura semântica.
+CSS para estilização responsiva (mobile-first).
+JavaScript para interatividade (filtros, exibição de detalhes, carrinho simulado).
+Não usar frameworks (somente código puro).
+Design moderno e amigável.
+
+
+Plano de Desenvolvimento 
+
+Semana 1 — Estrutura e Base
+
+Dia 1-2:
+Criar wireframe (rascunho visual) do layout.
+Configurar estrutura de pastas:
+/delicia-express
+    /img
+    /css
+    /js
+    index.html
+Escrever o HTML base (header, nav, main, footer).
+
+Dia 3-4:
+Criar o CSS reset (remover estilos padrão do navegador).
+Definir variáveis de cor e fonte no CSS.
+Criar layout responsivo (header fixo, menu, grid de produtos).
+
+Dia 5-6:
+Adicionar JavaScript básico:
+Filtros por categoria.
+Mostrar detalhes do prato ao clicar.
+Semana 2 — Funcionalidades e Finalização
+
+Dia 7-8:
+Implementar simulação de carrinho:
+Botão “Adicionar ao carrinho”.
+Contador no ícone de carrinho.
+
+Dia 9-10:
+Adicionar transições/efeitos no CSS.
+Testar responsividade em diferentes tamanhos de tela.
+
+Dia 11-12:
+Testes finais, correção de bugs.
+Otimização (compressão de imagens e minificação de CSS/JS).
+
+Dia 13-14:
+Entrega final com apresentação.
+
+Layout Detalhado
+Cores:
+Primária: #D62828 (vermelho vivo, destaque).
+Secundária: #F77F00 (laranja, para botões e destaques).
+Fundo claro: #FFF8F0 (bege claro).
+Texto: #333333.
+
+Fontes:
+Títulos: Poppins (Google Fonts, bold).
+Texto: Roboto (Google Fonts, normal).
+
+Disposição dos Elementos:
+Header (fixo no topo)
+Logo à esquerda.
+Menu de navegação no centro (Home, Cardápio, Contato).
+Ícone de carrinho à direita.
+Banner inicial (imagem grande com texto sobreposto):
+Texto: “Bem-vindo ao Delícia Express — Seu sabor em poucos cliques”.
+Botão “Ver Cardápio”.
+Seção de filtros (logo abaixo do banner):
+Botões: "Todos", "Entradas", "Pratos principais", "Sobremesas", "Bebidas".
+
+Grade de produtos:
+
+Cada item em um card com:
+Foto (proporção 4:3).
+Nome do prato.
+Preço.
+Botão “Ver detalhes”.
+Modal de detalhes (ao clicar em “Ver detalhes”):
+Foto maior.
+Descrição do prato.
+Preço.
+Botão “Adicionar ao carrinho”.
+
+Rodapé:
+Links rápidos.
+Redes sociais.
+Direitos autorais.
+
+Onde pegar imagens:
+Unsplash (pesquise por food ou restaurant).
+Pexels (livre para uso).
+Compressão de imagens: TinyPNG.
+
+Funcionalidades de JavaScript:
+Filtrar pratos por categoria.
+Abrir/fechar modal de detalhes.
+Adicionar item ao carrinho e atualizar contador.
+Responsividade no menu (menu hamburguer no mobile).
